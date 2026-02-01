@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Productos } from "../../data/Productos.json";
+import { Productos } from "../../data/Productos";
 import ProductStyles from "./Products.module.css";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
