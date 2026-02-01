@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Productos } from "../../data/productos";
+import { Productos } from "../../data/Productos.json";
 import Filters from "./Filters";
 import ProductGrid from "./ProductGrid";
 import ProductsPagestyles from "./ProductsPage.module.css";
