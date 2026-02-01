@@ -172,6 +172,16 @@
 @media (max-width: 480px) {
   .cart {
     width: 100%;
-    right: -100%;
+    max-width: 100%;
+    border-radius: 0;
+  }
+  .items li picture img {
+    width: 60px;
+    height: 60px;
+  }
+  .cart form:first-child {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
   }
 }
