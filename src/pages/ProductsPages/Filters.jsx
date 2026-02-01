@@ -1,4 +1,4 @@
-import ProductsPagestyles from "./productsPage.module.css";
+import ProductsPagestyles from "./ProductsPage.module.css";
 
 const Filters = ({ category, setCategory, order, setOrder }) => {
   return (
